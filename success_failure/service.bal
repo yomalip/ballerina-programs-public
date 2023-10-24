@@ -1,6 +1,5 @@
 import ballerina/http;
 import ballerina/log;
-import ballerinax/prometheus as _;
 
 service /srvc on new http:Listener(8080) {
     resource function get success() returns string|error {
