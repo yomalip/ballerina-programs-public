@@ -4,6 +4,7 @@ import ballerina/log;
 service /srvc on new http:Listener(8080) {
     resource function get success() returns string|error {
         log:printInfo("Request received at /success endpoint");
+        log:printInfo("Note: This is a log message");
         return "Successful";
     }
 
