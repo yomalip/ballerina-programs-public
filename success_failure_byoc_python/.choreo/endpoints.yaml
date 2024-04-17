@@ -3,13 +3,13 @@ version: 0.1
 
 endpoints:
 - name: success
-  port: 5000
+  port: 8080
   type: REST
   networkVisibility: Public
   context: /success
   schemaFilePath: openapi.yaml
 - name: failure
-  port: 5000
+  port: 8080
   type: REST
   networkVisibility: Public
   context: /failure
