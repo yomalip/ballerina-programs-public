@@ -7,8 +7,10 @@ endpoints:
   type: REST
   networkVisibility: Public
   context: /success
+  schemaFilePath: openapi.yaml
 - name: failure
   port: 5000
   type: REST
   networkVisibility: Public
   context: /failure
+  schemaFilePath: openapi.yaml
