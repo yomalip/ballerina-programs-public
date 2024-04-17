@@ -14,5 +14,7 @@ COPY . .
 # Expose the port that the Flask app runs on
 EXPOSE 5000
 
+USER 10014
+
 # Command to run the Flask application
 CMD ["python", "app.py"]
