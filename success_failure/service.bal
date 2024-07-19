@@ -9,6 +9,6 @@ service /srvc on new http:Listener(8080) {
 
     resource function get failure() returns error? {
          log:printInfo("Request received at /failure endpoint");
-        return error("Error");
+        return error("Errors");
     }
 }
